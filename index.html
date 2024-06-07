@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="module" src="assets/js/firebase.js"> </script>
+    <script type="module" src="assets/js/script.js"></script>
+<body>
+    <div id="NavBar">
+        <ul>
+            <li><a href="#Seccion1">Home</a></li>
+            <li><a href="#Seccion2">¿Que son los playOffs?</a></li>
+            <li><a href="#Seccion2">Contendientes</a></li>
+            <li><a href="#Seccion2">Mejores Jugadas</a></li>
+            <li><a href="#Seccion5">Concurso</a></li>
+            <li><a href="#Seccion6">Redes Sociales</a></li>
+            <li> <button onclick="" id="btnContraste"> Modo Oscuro</button></li>
+        </ul>
+
+    </div>
+    <div id="Seccion1">
+        <h1>NBA PlayOffs</h1>
+   
+        <img src="PlayOffs1.jpg" alt="">
+        <h2>Intensidad al 100%</h2>
+    </div>
+
+    <div id="Seccion2">
+
+        <div id="Columna1">
+            <h3>¿Que són los PlayOffs?</h3>
+            <p>Los PlayOffs son los partidos de final de la temporada de la NBA. Estos partidos se 
+                juegan entre los mejores equipos de la NBA y se llevan a cabo en la segunda mitad de 
+                la temporada. Es un campeonato en el que se determina el mejor equipo en postemporada</p>
+            <p>Los Playoffs de la NBA se componen de cuatro rondas de eliminación con los 16 equipos clasificados.
+                 Cada eliminatoria es al mejor de 7 partidos, por 
+                lo que el equipo que gana cuatro encuentros avanza de ronda. En cada serie se sigue el modelo
+                 2-2-1-1-1, es decir, que el equipo con la ventaja de campo juega los partidos 1, 2, 5* y 7* 
+                 en casa, mientras el rival será local en los partidos 3, 4 y 6* (*si son necesarios).
+                 <br>
+                 El equipo que gane la Primera Ronda es el que avanza a la Segunda Ronda. En la Segunda Ronda, 
+                 el equipo con la ventaja de campo juega los partidos 1, 2, 5* y 7* en casa, mientras el rival será
+                En cada conferencia se disputa Primera Ronda, Semifinales de Conferencia y Finales de Conferencia. Cuando tan solo queda un equipo de cada conferencia, los respectivos representantes del Este y del Oeste se ven las caras en las Finales de la NBA.Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus itaque quisquam nulla distinctio nostrum expedita! Molestiae at excepturi 
+                corporis, reprehenderit aliquid maxime beatae impedit earum odio dolor eaque eos quae.</p>
+        </div>
+        <div id="Columna2">
+            <img src="intensidad.png" alt="">
+        </div>
+       
+        
+
+    </div>
+
+    <div id="Seccion3">
+        <h3>¿Quienes juegan?</h3>
+        <ul>
+            <h4>Los mejores para jugadores de la NBA</h4>
+            <p>Luka Doncic, Kevin Durant, LeBron James, Nicola Jokic, Stephen Curry, Kawhi Leonard son los principales
+                protagonistas de los Playoffs 2024, sin desmeritar a los jugadores de rol en los equipos.
+            </p>
+            <img src="MejoresJugadores.jpg" alt="">
+
+            <h4>Los  equipos contendientes de la NBA</h4>
+            <img src="equipos2024.png" alt="">
+            
+        </ul>
+
+    </div>
+
+    <div id="Seccion4">
+        <h3> Mejores jugadas de los PlayOffs 2023</h3>
+        <p>Para que te deslumbres con los mejores jugadores  del planeta te dejamos un video de lo que 
+            fueron las mejores jugadas de los PlayOffs 2023, donde la intensidad se sentia en todo momento</p>
+        <iframe width="1080" height="630" src="https://www.youtube.com/embed/5uQx7eK39v8?si=fj1cvubQ8TuorHPW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div id="Seccion5">
+        <div id="Formulario1">
+            <form action="">
+                <h1>¡Sorteo!</h1>
+                <h2>Ingresa tu candidato a campeón</h2>
+                <label >Selecciona tu equipo campeon</label>
+                
+                <select name="campeon" id="campeon">
+                    <option value="Dalas Mavericks">Dalas Mavericks</option>
+                    <option value="Boston Celtics">Boston Celtics</option>
+                    <option value="Minnesota Timberwolves">Minnesota Timberwolves</option>
+                    <option value="Indiana Pacers">Indiana Pacers</option>
+                  </select>
+                  
+                <input type="text" id="nombre" placeholder="Ingresa tu nombre" name="nombre">
+                <p id="validarnombre"style="display: none;">El nombre es obligatorio</p>
+                <input type="text" id="apellido" placeholder="Ingresa tu apellido" name="apellido">
+                <p id="validarapellido"style="display: none;">El apellido es obligatorio</p>
+                <input type="text" id="rut" name="rut" placeholder="Ingresa tu rut">
+                <p id="validarrut"style="display: none;">El rut es obligatorio</p>
+                <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo">
+                <p id="validarcorreo"style="display: none;">El correo es obligatorio</p>
+                <input type="number" id="edad" name="edad" placeholder="Ingresa tu edad">
+                <p id="validaredad"style="display: none;">La edad es obligatorio</p>
+    
+                <div id="radios">
+                    <p>En cuantos partidos se decidirá el campeon:</p>
+                    <input  type="radio" id="barrida" name="c_partidos" value="4-0">
+                    <label  for="4-0">La serie termina en 4 partidos</label><br>
+                    <input  type="radio" id="resistencia" name="c_partidos" value="4-1">
+                    <label  for="4-1">Mucha superioridad, se acaba en 5</label><br>
+                    <input  type="radio" id="igualado" name="c_partidos" value="4-2">
+                    <label for="4-2">Logran campeonar con tranquilidad en 6 partidos</label><br>
+                    <input  type="radio" id="igualado" name="c_partidos" value="4-3">
+                    <label for="4-3">Reñido, se decidira el campeon en 7 partidos</label><br>
+    
+    
+                </div>
+                <p id="validarc_partidos"style="display: none;">La cantidad de partidos es obligatoria</p>
+                <textarea name="motivo" id="motivo" cols="90" rows="10" placeholder="Cuentanos por que deberias ganar..."></textarea>
+                <p id="validar_motivo"style="display: none;">Es neceasiro que nos cuentes sobre ti para poder elegir a un ganador</p>
+                <input id="condiciones" type="checkbox">
+                <label for="terminos">Acepto los terminos y condiciones</label><br>
+                <p id="validarcondiciones"style="display: none;">Debes aceptar los terminos y condiciones para poder participar</p>
+    
+    
+                <button id="btnRegistrar"  type="button">Registrar</button>
+            </form>
+        </div>
+    </div>
+
+
+    
+
+    <div id="Seccion6">
+        <h3>Siguenos en nuestras redes Sociales</h3>
+        <a href="https://www.instagram.com/nba/"><img src="instagram.png" alt="">Instagram</a>
+
+        <a href="https://www.facebook.com/nba/"><img src="facebook.png" alt="">Facebook</a>
+        <a href="https://twitter.com/nba"><img src="gorjeo.png" alt="">Twitter</a>
+        <a href="https://www.youtube.com/user/NBA/videos"><img src="youtube.png" alt="">Youtube</a>
+
+    </div>
+
+        
+    
+</body>
+</html>

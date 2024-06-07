@@ -1,0 +1,195 @@
+body{
+    background-image: url(fondo.jpg) ;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#modoOscuro{
+    background-image: none;
+    width: 100%;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(5, 5, 5, 1);
+    color: aliceblue;
+
+    
+}
+
+#NavBar{
+    width: 100%;
+    background-image: url(bgNavbar.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 5px 5px black;
+
+
+}
+
+#NavBar ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgba(61, 47, 47, 0.5);
+}
+#NavBar li , #NavBar li a{
+    float: left;
+    padding: 14px 16px;
+    font-size: 17px;
+    color: white;
+}
+
+#NavBar li a:hover{
+    background-color: rgba(61, 47, 47, 0.7);
+}
+
+#Seccion1{
+    width: 100%;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+
+}
+
+#Seccion1 img{
+    margin-top: 15px;
+    width: auto;
+
+    border-radius: 10px;
+}
+
+#Seccion1 h1{
+    font-size: 50px;
+    color: rgb(182, 1, 1);
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(61, 47, 47, 0.5);
+       
+}
+
+
+#Seccion2{
+    display: flex;
+    width: 100%;
+    
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+}
+#Columna1{
+    margin-left: 10%;
+    width: 40%;
+    padding: 15px;
+    background: rgba(56, 27, 7, 0.3);
+    border-radius: 15px;
+    border: solid 1px rgba(231, 30, 30, 0.5);
+
+
+}
+#Columna2 img{
+    background: rgb(18, 18, 19);
+    width: 45%;
+    border-radius: 15px;
+    border: solid 1px rgba(61, 47, 47, 0.3);
+    margin-right: 25%;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.404);
+}
+
+#Seccion3{
+    width: 100%;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+#Seccion3 img{
+    box-shadow: 10px 5px 5px black;
+    border-radius: 15px;
+
+}
+
+#Seccion4{
+    width: 100%;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+
+#Seccion5{
+    width: 100%;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    border: solid 1px rgba(1,1,1,1);
+
+}
+
+#Seccion5 form{
+    background: rgba(61, 57, 57, 0.712);
+    width: 850px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    border: solid 1px rgba(1,1,1,1);
+}
+#Seccion5 form input{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px rgba(1,1,1,1);
+    border-radius: 10px;
+}
+
+#Seccion5 form button{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px rgba(1,1,1,1);
+    border-radius: 10px;
+    background-color: rgba(2, 158, 2, 0.897);
+    color: white;
+}
+
+#Seccion6{
+    width: 100%;
+    padding: 15px;
+    margin: 15px;
+    height: auto;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    text-align: center;
+    border: solid 1px rgba(1,1,1,1);
+    background-image: url(bgNavbar.jpg) ;
+    float: inline-end;
+}
+
+#Seccion6 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+
+
+#Seccion6 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
