@@ -9,3 +9,5 @@ import {firebaseConfig} from './credenciales.js';
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
+
+//Estos son los scripts de firebase y de la firestore no se que mas comentar aqui

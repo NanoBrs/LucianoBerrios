@@ -7,3 +7,6 @@ export const firebaseConfig = {
     messagingSenderId: "847348469214",
     appId: "1:847348469214:web:7a4d5800636f2d30e3214f"
   };
+
+
+  // las credenciales separadas del script de la firebase

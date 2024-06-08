@@ -72,15 +72,14 @@ body{
 
 #Seccion2{
     display: flex;
-    width: 100%;
-    
+    width: 90%;
     padding: 20px;
     align-content: center;
     text-align: center;
 }
 #Columna1{
-    margin-left: 10%;
-    width: 40%;
+    margin-left: 100px;
+    width: 400px;
     padding: 15px;
     background: rgba(56, 27, 7, 0.3);
     border-radius: 15px;
@@ -90,10 +89,10 @@ body{
 }
 #Columna2 img{
     background: rgb(18, 18, 19);
-    width: 45%;
+    width: 500px;
     border-radius: 15px;
     border: solid 1px rgba(61, 47, 47, 0.3);
-    margin-right: 25%;
+    margin-left: 15px;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.404);
 }
 
@@ -102,10 +101,12 @@ body{
     padding: auto;
     margin: auto;
     text-align: center;
+    
 }
 #Seccion3 img{
     box-shadow: 10px 5px 5px black;
     border-radius: 15px;
+    
 
 }
 
@@ -154,6 +155,7 @@ body{
 }
 
 #Seccion6{
+    
     width: 100%;
     padding: 15px;
     margin: 15px;
@@ -214,9 +216,56 @@ body.modoOscuro{
     
 }
 
-.modoOscuro #NavBar li , #NavBar ul li a{
+.modoOscuro #NavBar li ,.modoOscuro #NavBar ul li a{
     float: left;
     padding: 14px 16px;
     font-size: 17px;
     color: white;
+}
+
+#tabla {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#tabla h3 {
+    margin-bottom: 10px;
+}
+
+#tabla table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tabla th,
+#tabla td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+
+
+#tabla tr:hover {
+    background-color: #46434379;
+}
+
+#tabla td:last-child {
+    white-space: nowrap;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
