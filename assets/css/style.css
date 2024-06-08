@@ -213,15 +213,20 @@ body.modoOscuro{
     padding: 0px;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
     
 }
 
 .modoOscuro #NavBar li ,.modoOscuro #NavBar ul li a{
     float: left;
     padding: 14px 16px;
-    font-size: 17px;
+    font-size: 22px;
     color: white;
 }
+.modoOscuro p{
+    font-size: 20px;
+}
+
 
 #tabla {
     margin-top: 20px;
